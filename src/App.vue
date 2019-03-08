@@ -1,17 +1,20 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img alt="enterplorer" src="./assets/logo.png">
+    <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
+    <Intelligence />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import HelloWorld from './components/HelloWorld.vue'
+import Intelligence from './components/intelligence/index.vue'
+import './assets/redcore-font-2.0/iconfont.css'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    Intelligence
   }
 }
 </script>
