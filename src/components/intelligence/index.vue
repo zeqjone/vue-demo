@@ -162,7 +162,7 @@ export default {
     name: 'inteligense',
     data () {
       return {
-        title: '安全办公综合态势',
+        title: '深云SDP态势感知演示',
         overview: {},
         dxaccessApps: [],
         dxactiveUser: [],

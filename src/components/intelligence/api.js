@@ -29,27 +29,27 @@ Mock.mock(/manager\/dashboard\/intelligence\/changes\/visit\/app/, function () {
     'errCode|1': '0',
     'data': [{
       'appId': '@id',
-      'appName': '@cword(2,6)',
+      'appName': 'OA',
       ['visitTimes|' + rdmNum(10000)]: 1,
       ['changes|' + (rdmNum(100000) - 50000)]: 1
     }, {
       'appId': '@id',
-      'appName': '@cword(2,6)',
+      'appName': 'CRM',
       ['visitTimes|' + rdmNum(10000)]: 1,
       ['changes|' + (rdmNum(100000) - 50000)]: 1
     }, {
       'appId': '@id',
-      'appName': '@cword(2,6)',
+      'appName': 'ERP',
       ['visitTimes|' + rdmNum(10000)]: 1,
       ['changes|' + (rdmNum(100000) - 50000)]: 1
     }, {
       'appId': '@id',
-      'appName': '@cword(2,6)',
+      'appName': 'BPM',
       ['visitTimes|' + rdmNum(10000)]: 1,
       ['changes|' + (rdmNum(100000) - 50000)]: 1
     }, {
       'appId': '@id',
-      'appName': '@cword(2,6)',
+      'appName': 'HR',
       ['visitTimes|' + rdmNum(10000)]: 1,
       ['changes|' + (rdmNum(100000) - 50000)]: 1
     }]
